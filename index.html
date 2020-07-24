@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="stylesheet" href="styles/landingpage.css">
+    <link href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+    <header>
+        <h1><span class="blinking">Classic Snakes!</span></h1>
+    </header>
+    <form id="form" name="myform" novalidate onsubmit="return validation(event)">
+        <div class="formpage">
+            <span id="blankerror"></span>
+            <label for="username"><b>Username</b></label>
+            <span id="usernameerror"></span>
+            <input type="text" id="username" placeholder="Username" name="username" required>
+            <label for="password"><b>Password</b></label>
+            <span id="passworderror"></span>
+            <input type="password" id="password" for="password" placeholder="Password" name="password" required>
+            <label for="password"><b>Repeat Password</b></label>
+            <span id="repeatpassworderror"></span>
+            <input type="password" id="repeatpassword" for="password" placeholder="Repeat password" name="repeatpassword" required>
+        </div>
+        <div class="formsubmit">
+            <button type="submit" id="login" type="button">LOGIN</button>
+            <button type="button" id ="cancel"type="button">CANCEL</button>
+        </div>
+    </form>
+    <script src="js/landingpage.js"></script>
+</body>
+</html>

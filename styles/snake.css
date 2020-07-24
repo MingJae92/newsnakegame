@@ -1,0 +1,36 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #DD2D4A;
+    font-family: 'Holtwood One SC', serif;
+}
+
+header{
+    text-align: center;
+    font-family: 'Holtwood One SC', serif;
+    color: #04E824;
+    size: 100%;
+    margin: 40px 0px;
+    font-size: 30px;
+}
+
+canvas{
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+.heading{
+    display: flex;
+    justify-content: center;
+    color: #F46036;
+}
+
+.keys{
+   text-align: center;
+   color: #E0FF4F;
+}
+
+

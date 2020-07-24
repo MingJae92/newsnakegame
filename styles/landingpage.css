@@ -1,0 +1,72 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #DD2D4A;
+    font-family: 'Holtwood One SC', serif;
+}
+
+header{
+    text-align: center;
+    font-family: 'Holtwood One SC', serif;
+    color: #04E824;
+    size: 100%;
+    margin: 40px 0px;
+    font-size: 30px;
+}
+
+.formpage{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    position: relative;
+    font-size: 25px;
+    color: #F5F749;
+}
+
+input{
+    width: 25vw;
+    height: 5vh;
+    margin: 30px 0px;
+}
+
+.formsubmit{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    color: #592E83;
+    background-color: #FFD23F;
+    font-family: 'Holtwood One SC', serif;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#usernameerror{
+    color: purple;
+    font-size: 10px;
+}
+
+#errormessage {
+    color: purple;
+    font-size: 10px;
+}
+
+#passworderror{
+    color: purple;
+    font-size: 10px;
+}
+
+#repeatpassworderror{
+    color: purple;
+    font-size: 10px;
+}
+
+#blankerror{
+    color: purple;
+    font-size: 10px;
+}
+
+
+
